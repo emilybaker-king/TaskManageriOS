@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70CA3A1218A0325009E9024 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70CA3A0218A0325009E9024 /* Task.swift */; };
 		B7778C5C2188CB930098D2DD /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7778C5B2188CB930098D2DD /* ThirdViewController.swift */; };
 		B7778C672188D3230098D2DD /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7778C662188D3230098D2DD /* TaskTableViewCell.swift */; };
-		B7778C6B2188D48F0098D2DD /* TaskLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7778C6A2188D48F0098D2DD /* TaskLibrary.swift */; };
 		B7778C752188D95C0098D2DD /* TaskInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7778C742188D95C0098D2DD /* TaskInfo.storyboard */; };
 		B7778C772188DC220098D2DD /* TaskInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7778C762188DC220098D2DD /* TaskInfoViewController.swift */; };
 		B7778C7B2188E7FD0098D2DD /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7778C7A2188E7FD0098D2DD /* AddTaskViewController.swift */; };
+		B797156C218C9824002A4A73 /* taskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B797156B218C9824002A4A73 /* taskManager.swift */; };
 		B7F912062188AF3100C0AC08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F912052188AF3100C0AC08 /* AppDelegate.swift */; };
 		B7F912082188AF3100C0AC08 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F912072188AF3100C0AC08 /* FirstViewController.swift */; };
 		B7F9120A2188AF3100C0AC08 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F912092188AF3100C0AC08 /* SecondViewController.swift */; };
@@ -22,12 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B70CA3A0218A0325009E9024 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		B7778C5B2188CB930098D2DD /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		B7778C662188D3230098D2DD /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
-		B7778C6A2188D48F0098D2DD /* TaskLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskLibrary.swift; sourceTree = "<group>"; };
 		B7778C742188D95C0098D2DD /* TaskInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskInfo.storyboard; sourceTree = "<group>"; };
 		B7778C762188DC220098D2DD /* TaskInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInfoViewController.swift; sourceTree = "<group>"; };
 		B7778C7A2188E7FD0098D2DD /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		B797156B218C9824002A4A73 /* taskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskManager.swift; sourceTree = "<group>"; };
 		B7F912022188AF3100C0AC08 /* TaskManagerAssessmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManagerAssessmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F912052188AF3100C0AC08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7F912072188AF3100C0AC08 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -55,7 +57,6 @@
 				B7F912072188AF3100C0AC08 /* FirstViewController.swift */,
 				B7F912092188AF3100C0AC08 /* SecondViewController.swift */,
 				B7778C5B2188CB930098D2DD /* ThirdViewController.swift */,
-				B7778C6A2188D48F0098D2DD /* TaskLibrary.swift */,
 				B7778C662188D3230098D2DD /* TaskTableViewCell.swift */,
 				B7778C762188DC220098D2DD /* TaskInfoViewController.swift */,
 				B7778C7A2188E7FD0098D2DD /* AddTaskViewController.swift */,
@@ -79,6 +80,8 @@
 				B7F912052188AF3100C0AC08 /* AppDelegate.swift */,
 				B7F9120E2188AF3200C0AC08 /* Assets.xcassets */,
 				B7F912132188AF3200C0AC08 /* Info.plist */,
+				B70CA3A0218A0325009E9024 /* Task.swift */,
+				B797156B218C9824002A4A73 /* taskManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -183,11 +186,12 @@
 			files = (
 				B7F9120A2188AF3100C0AC08 /* SecondViewController.swift in Sources */,
 				B7778C7B2188E7FD0098D2DD /* AddTaskViewController.swift in Sources */,
+				B797156C218C9824002A4A73 /* taskManager.swift in Sources */,
 				B7778C772188DC220098D2DD /* TaskInfoViewController.swift in Sources */,
 				B7F912062188AF3100C0AC08 /* AppDelegate.swift in Sources */,
 				B7778C672188D3230098D2DD /* TaskTableViewCell.swift in Sources */,
 				B7778C5C2188CB930098D2DD /* ThirdViewController.swift in Sources */,
-				B7778C6B2188D48F0098D2DD /* TaskLibrary.swift in Sources */,
+				B70CA3A1218A0325009E9024 /* Task.swift in Sources */,
 				B7F912082188AF3100C0AC08 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
